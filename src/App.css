@@ -11,27 +11,55 @@ body {
 }
 
 
-h2, h3 {
+h2,
+h3 {
   margin: 0 auto;
   color: rgb(66, 171, 231);
 }
 
 .flex-parent {
+  padding-top: 2vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .project-card {
-  margin: 5px;
+  margin: 1vh 1vw;
   padding: 5px;
-  width: 45%;
+  width: 48%;
+  height: 250px;
   border: 2px solid rgb(195, 195, 195);
   border-radius: 13px;
   text-align: center;
+  text-decoration: none;
+  flex-direction: column;
+  transition: ease-in-out .3s;
+  color: black;
+}
+
+.project-card h2 {
+  font-size: 30px;
+}
+
+.project-card:hover {
+  background-color: rgba(18, 13, 66, 0.412);
+  text-shadow: -.5px 0 rgb(233, 233, 233), 0 .5px rgb(233, 233, 233);
+}
+
+.project-card:hover #fadeAway {
+  display: none;
+}
+
+.project-card:hover #viewProject {
+  display: contents;
 }
 
 .btn {
   margin: 5px;
   padding: 3px;
+}
+
+#viewProject {
+  display: none;
 }
