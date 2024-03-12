@@ -1,5 +1,5 @@
 export default function Footer() {
     return (
-        <div>Foot Foot Foot</div>
+        <div className="footer">Foot Foot Foot</div>
     );
 }
