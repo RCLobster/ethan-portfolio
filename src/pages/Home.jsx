@@ -3,7 +3,7 @@ import Project from '../components/Project';
 
 function Home() {
     return (
-        <div>
+        <div className="flex-parent">
             <Project
                 url="https://rclobster.github.io/team-MEC-project-1/"
                 title="Book Search Engine"
