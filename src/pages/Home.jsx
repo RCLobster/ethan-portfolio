@@ -1,10 +1,12 @@
 
+import Project from '../components/Project';
+
 function Home() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <Project url="https://www.github.com/RCLobster" title="My GitHub" description="This is my github"/>
         </div>
     )
-}
+};
 
 export default Home;
