@@ -1,5 +1,7 @@
 export default function Footer() {
     return (
-        <div className="footer">Foot Foot Foot</div>
+        <div className="flex-parent-footer">
+            <p className="footer">Git Link</p>
+        </div>
     );
 }

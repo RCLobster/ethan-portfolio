@@ -3,7 +3,7 @@ import Project from '../components/Project';
 
 function Home() {
     return (
-        <div className="flex-parent">
+        <div className="flex-parent-home">
             <Project
                 url="https://team-m-s-project-3.onrender.com/"
                 title="Mad Lib Generator"
