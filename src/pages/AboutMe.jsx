@@ -2,7 +2,7 @@ function AboutMe() {
     return (
         <div className="flex-parent-about about-card">
             <h2>About Ethan</h2>
-            <img src="../public/images/MeAtTable_Circle_Cropped.png"/>
+            <img src="../public/images/MeAtTable_Circle_Cropped.png" alt="image of Ethan sitting at a table"/>
             <p>
                 As a certified Full Stack Web Developer with a credential from UCLA edX, I possess a robust skill set that encompasses
                 the latest technologies and frameworks essential for modern web development. Proficient in JavaScript, HTML5, CSS,
