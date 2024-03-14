@@ -1,5 +1,7 @@
 export default function Resume() {
     return (
-        <div>Resume Goes Here</div>
+        <div className="resume-card">
+            <h2>Ethan's Resume</h2>
+        </div>
     );
 }

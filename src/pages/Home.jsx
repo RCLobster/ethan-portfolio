@@ -3,7 +3,9 @@ import Project from '../components/Project';
 
 function Home() {
     return (
-        <div className="flex-parent-home">
+        <div className="home-card flex-parent-home">
+            <h2>Project Portfolio</h2>
+            
             <Project
                 url="https://team-m-s-project-3.onrender.com/"
                 title="Mad Lib Generator"

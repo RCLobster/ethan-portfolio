@@ -1,6 +1,8 @@
 function ContactMe() {
     return (
-        <div>Contact Me Page</div>
+        <div className="contact-card">
+            <h2>Contact Me</h2>
+        </div>
     )
 }
 

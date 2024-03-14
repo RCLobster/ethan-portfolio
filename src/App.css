@@ -24,6 +24,31 @@ h3 {
   flex-wrap: wrap;
 }
 
+/* %%% HEADER CSS %%% */
+.header {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 225%;
+}
+
+/* %%% NAVBAR CSS %%% */
+.navbar {
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0 3px;
+  padding: 0 3px;
+}
+
+/* %%% HOME CSS %%% */
+.home-card h2 {
+  width: 98%;
+  text-align: center;
+  margin-bottom: 1vh;
+}
 
 /* %%% PROJECT CSS %%% */
 .flex-parent-project {
@@ -95,25 +120,57 @@ h3 {
   }
 }
 
-/* %%% HEADER CSS %%% */
-
-.header {
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
-  font-size: 225%;
+/* %%% ABOUT ME CSS %%% */
+.flex-parent-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-/* %%% NAVBAR CSS %%% */
-
-.navbar {
-  text-align: center;
+.about-card {
+  width: 98%;
+  padding-top: 2vh;
 }
 
-.nav-link {
-  text-decoration: none;
-  margin: 0 3px;
-  padding: 0 3px;
+.about-card h2 {
+  width: 98%;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.about-card img {
+  width: 300px;
+  margin: 3vh 1vw;
+}
+
+.about-card p {
+  width: 85%;
+  margin: 1vh 1vw;
+}
+
+/* %%% Contact ME CSS %%% */
+.contact-card {
+  width: 98%;
+  padding-top: 2vh;
+}
+
+.contact-card h2 {
+  width: 98%;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+/* %%% Resume CSS %%% */
+.resume-card {
+  width: 98%;
+  padding-top: 2vh;
+}
+
+.resume-card h2 {
+  width: 98%;
+  text-align: center;
+  margin-bottom: 1vh;
 }
 
 /* %%% FOOTER CSS %%% */
