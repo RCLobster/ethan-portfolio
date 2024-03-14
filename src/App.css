@@ -24,8 +24,9 @@ h3 {
   flex-wrap: wrap;
 }
 
+/* %%% PROJECT CSS %%% */
 .project-card {
-  margin: 1vh 1vw;
+  margin: 1vh .5vw;
   padding: 5px;
   width: 48%;
   height: 250px;
@@ -39,7 +40,7 @@ h3 {
 }
 
 .project-card h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .project-card:hover h2 {
@@ -68,6 +69,12 @@ h3 {
   display: none;
 }
 
+@media (min-width: 1025px) {
+  .project-card {
+    width: 48%;
+  }
+}
+
 @media (max-width: 1024px) {
   .project-card {
     width: 48%;
@@ -78,4 +85,25 @@ h3 {
   .project-card {
     width: 98%;
   }
+}
+
+/* %%% HEADER CSS %%% */
+
+.header {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 225%;
+}
+
+/* %%% NAVBAR CSS %%% */
+
+.navbar {
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0 3px;
+  padding: 0 3px;
 }

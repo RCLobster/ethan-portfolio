@@ -1,5 +1,5 @@
 export default function Header() {
     return (
-        <div className="header">Head Head Head</div>
+        <h1 className="header">Ethan Stone's Web Development Portfolio</h1>
     );
 }
