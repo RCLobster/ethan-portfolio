@@ -42,9 +42,13 @@ h3 {
   font-size: 30px;
 }
 
+.project-card:hover h2 {
+  color: white;
+}
+
 .project-card:hover {
   background-color: rgba(18, 13, 66, 0.412);
-  text-shadow: -.5px 0 rgb(233, 233, 233), 0 .5px rgb(233, 233, 233);
+  /* text-shadow: -.5px 0 rgb(233, 233, 233), 0 .5px rgb(233, 233, 233); */
 }
 
 .project-card:hover #fadeAway {
@@ -62,4 +66,16 @@ h3 {
 
 #viewProject {
   display: none;
+}
+
+@media (max-width: 1024px) {
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 98%;
+  }
 }

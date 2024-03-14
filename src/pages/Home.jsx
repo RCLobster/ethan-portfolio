@@ -5,6 +5,11 @@ function Home() {
     return (
         <div className="flex-parent">
             <Project
+                url="https://team-m-s-project-3.onrender.com/"
+                title="Mad Lib Generator"
+                description={`Create a madlib with a friend online!`}
+            />
+            <Project
                 url="https://rclobster.github.io/team-MEC-project-1/"
                 title="Book Search Engine"
                 description={`Using a free book API, you can search for "any" book you want and get data back in return.`}
