@@ -40,6 +40,7 @@ h3 {
 /* %%% NAVBAR CSS %%% */
 .navbar {
   text-align: center;
+  font-size: 125%;
 }
 
 .nav-link {
@@ -48,7 +49,15 @@ h3 {
   padding: 0 3px;
 }
 
+.nav-link:hover {
+  color: rgb(255, 166, 0);
+}
+
 /* %%% HOME CSS %%% */
+.home-card {
+  margin: 1vh .5vw;
+}
+
 .home-card h2 {
   width: 98%;
   text-align: center;
@@ -108,35 +117,19 @@ h3 {
   display: none;
 }
 
-@media (min-width: 1025px) {
-  .project-card {
-    width: 48%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .project-card {
-    width: 48%;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-card {
-    width: 98%;
-  }
-}
-
 /* %%% ABOUT ME CSS %%% */
 .flex-parent-about {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 2vh;
 }
 
 .about-card {
   width: 98%;
-  padding-top: 2vh;
+  /* margin: 0 auto; */
   margin: 1vh .5vw;
 }
 
@@ -161,12 +154,13 @@ h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 2vh;
 }
 
 .contact-card {
   width: 98%;
-  padding-top: 2vh;
   text-align: center;
+  /* margin: 0 auto; */
   margin: 1vh .5vw;
 }
 
@@ -196,25 +190,29 @@ h3 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 2vh;
 }
 
 .resume-card {
   width: 98%;
-  padding-top: 2vh;
+  /* margin: 1vh .5vw; */
+  margin: 0 auto;
 }
 
 .resume-card h2 {
   width: 98%;
   text-align: center;
   margin-bottom: 1vh;
+
 }
 
 .resume-img {
-  max-width: 74%;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .resume-card a {
-  width: 24%;
+  max-width: 25%;
   margin-bottom: 55px;
   text-align: center;
 }
@@ -227,6 +225,10 @@ h3 {
 .resume-download img{
   width: 50px;
   margin: 1vh 1vw;
+}
+
+.download-icon:hover{
+  width: 55px;
 }
 
 /* %%% FOOTER CSS %%% */
@@ -256,4 +258,54 @@ h3 {
 .footer .linkedin {
   width: 26px;
   margin: 4px 5px;
+}
+
+.linkedin:hover {
+  width: 31px;
+}
+
+.github:hover {
+  width: 40px;
+}
+
+@media (min-width: 1025px) {
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-card {
+    margin-bottom: 55px;
+  }
+
+  .project-card {
+    width: 98%;
+  }
+
+  .flex-parent-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-children {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vh 1vw;
+  }
+
+  .about-card {
+    margin-bottom: 55px;;
+  }
+
+  .resume-img {
+    width: 98%;
+  }
 }
