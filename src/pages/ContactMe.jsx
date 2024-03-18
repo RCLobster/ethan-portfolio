@@ -4,7 +4,7 @@ function ContactMe() {
             <h2>Contact Me</h2>
             <div className="contact-children">
                 <img src="../public/images/email_icon.png" title="icon by rukanicon" alt="email envelop icon" />
-                <p>esstone27@gmail.com</p>
+                <a href="mailto:esstone27@gmail.com">esstone27@gmail.com</a>
             </div>
             <div className="contact-children">
                 <img src="../public/images/circle-phone_icon.png" title="icon by UIcons" alt="phone icon" />

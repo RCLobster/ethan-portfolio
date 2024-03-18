@@ -24,6 +24,11 @@ h3 {
   flex-wrap: wrap;
 }
 
+.app-card {
+  width: 98%;
+  margin: 1vh 1vw;
+}
+
 /* %%% HEADER CSS %%% */
 .header {
   text-align: center;
@@ -70,6 +75,7 @@ h3 {
   flex-direction: column;
   transition: ease-in-out .3s;
   color: black;
+  /* margin: 0 auto; */
 }
 
 .project-card h2 {
@@ -131,6 +137,7 @@ h3 {
 .about-card {
   width: 98%;
   padding-top: 2vh;
+  margin: 1vh .5vw;
 }
 
 .about-card h2 {
@@ -145,7 +152,7 @@ h3 {
 }
 
 .about-card p {
-  width: 85%;
+  width: 80%;
   margin: 1vh 1vw;
 }
 
@@ -160,6 +167,7 @@ h3 {
   width: 98%;
   padding-top: 2vh;
   text-align: center;
+  margin: 1vh .5vw;
 }
 
 .contact-card h2 {
@@ -172,6 +180,10 @@ h3 {
   width: 30px;
 }
 
+.contact-card a {
+  text-decoration: none;
+}
+
 .contact-children {
   width: 10%;
   margin: 0 10px;
@@ -179,6 +191,13 @@ h3 {
 }
 
 /* %%% Resume CSS %%% */
+.flex-parent-resume {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .resume-card {
   width: 98%;
   padding-top: 2vh;
@@ -188,6 +207,26 @@ h3 {
   width: 98%;
   text-align: center;
   margin-bottom: 1vh;
+}
+
+.resume-img {
+  max-width: 74%;
+}
+
+.resume-card a {
+  width: 24%;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.resume-download {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.resume-download img{
+  width: 50px;
+  margin: 1vh 1vw;
 }
 
 /* %%% FOOTER CSS %%% */
