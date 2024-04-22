@@ -9,7 +9,7 @@ function Home() {
             <Project
                 url="https://www.slostoneproperties.com/"
                 title="SLO Stone Properties"
-                description={`Search through SLO Stone Properties catologue of houses in San Luis Obispo.`}
+                description={`Search through SLO Stone Properties' catologue of houses in San Luis Obispo.`}
             />
             <Project
                 url="https://team-m-s-project-3.onrender.com/"
