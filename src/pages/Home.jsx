@@ -7,6 +7,11 @@ function Home() {
             <h2>Project Portfolio</h2>
             
             <Project
+                url="https://www.slostoneproperties.com/"
+                title="SLO Stone Properties"
+                description={`Search through SLO Stone Properties catologue of houses in San Luis Obispo.`}
+            />
+            <Project
                 url="https://team-m-s-project-3.onrender.com/"
                 title="Mad Lib Generator"
                 description={`Create a madlib with a friend online!`}
